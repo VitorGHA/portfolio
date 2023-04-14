@@ -161,6 +161,7 @@ main {
     height: 6rem;
     color: var(--cinza-claro);
     font-family: 'JetBrains Mono', monospace;
+    text-align: justify;
 }
 
 .projeto a {
