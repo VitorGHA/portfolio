@@ -1,122 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+    <title>Vítor Gabriel - Desenvolvedor Front-end</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portifolio.css">
-    <title>Portifólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+
+
+
 </head>
 
 <body>
-
-    <nav class="menu">
-        <div class="logo">
-            <h2>Vítor Gabriel</h2>
-            <p>Front-end Developer</p>
-
-        </div>
-
-        <div class="links-menu">
-            <ul class="nav-list">
-                <li class="link-item">
-                    <a href="#inicio">INÍCIO</a>
-                </li>
-                <li class="link-item">
-                    <a href="#projetos">PROJETOS</a>
-                </li>
-                <li class="link-item">
-                    <a href="#formacao">FORMAÇÃO</a>
-                </li>
-                <li class="link-item">
-                    <a href="#cotatos">CONTATOS</a>
-                </li>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#inicio" class="button">Inicio</a></li>
+                <li><a href="#projetos" class="button">Projetos</a></li>
+                <li><a href="https://www.linkedin.com/in/vitor-gabriel-766555252/" class="button"
+                        target="_blank">LinkedIn</a></li>
+                <li><a href="#contatos" class="button">Contatos</a></li>
             </ul>
+        </nav>
+        <div class="apresentacao">
 
+            <h1>Vítor Gabriel</h1>
+            <p>Desenvolvedor Front-end</p>
         </div>
-    </nav>
+    </header>
 
-    <div class="container" id="inicio">
-        <!-- <aside class="sideBar">
-            <ul>
-                <li class="sideBar-item">Projetos</li>
-                <li class="sideBar-item">Contatos</li>
-                <li class="sideBar-item">Objetivos</li>
-            </ul>
-        </aside> -->
-
-        <section class="main">
-            <div class="main-content">
-                <h1 class="texto-principal">Construindo interfaces de forma <span>ágil</span> e <span>moderna</span>.
-                </h1>
-                <h3 class="texto-secundario">Um Desenvovedor focado em entregar a melhor experiência digital para sua
-                    empresa!</h3>
+    <main>
+        <section id="inicio">
+            <h2><span id="destaque">Bem-Vindo</span> , esse é meu <span id="destaque">portifólio!</span> </h2>
+            <p>Olá, meu nome é Vítor Gabriel e sou um desenvolvedor front-end apaixonado por criar soluções digitais
+                atraentes e intuitivas.</p>
+        </section>
+        <section class="projetos" id="projetos">
+            <h2 id="projetos-titulo"> Projetos </h2>
+            <div class="projeto">
+                <img src="img/projeto-memoteca.png" alt="Projeto 1">
+                <h3>Memoteca</h3>
+                <p>Um Mural de pensamentos onde é possível Criar, Editar, Listar e Deletar um pensamento, operações do
+                    CRUD. Neste projeto foram usados a Framework Angular, Typescript, HTML e CSS.</p>
+                <a href="https://github.com/VitorGHA/memoteca" target="_blank">Ver Pojeto</a>
+            </div>
+            <div class="projeto">
+                <img src="img//dphdm.png" href="https://www.marinha.mil.br/dphdm/" alt="Projeto 2">
+                <h3>Site da DPHDM</h3>
+                <p>Participei da criação do site da Diretoria de Patrimônio Histórico e Documentação da Marinha. Projeto
+                    Desenvolvido em Drupal, utilizando HTML, CSS e Javascript no Front-end.</p>
+                <a href="https://www.marinha.mil.br/dphdm/" target="_blank">Ver Projeto</a>
+            </div>
+            <div class="projeto">
+                <img src="img/bg.jpg" alt="Projeto 3">
+                <h3>Projeto 3</h3>
+                <p>Descrição do projeto 3.</p>
+                <a href="#">Ver Projeto</a>
             </div>
         </section>
+        <section class="tecnologias">
+            <h1 id="titulo-tech"> Habilidades Técnicas </h1>
+            <ul class="lista-tech">
+                <li class="item-tech">
+                    <img src="img/html.png" alt="" class="imagem-tech">
+                    <h3 class="item-descricao">HTML</h3>
+                </li>
+                <li class="item-tech">
+                    <img src="img/css-3.png" alt="" class="imagem-tech">
+                    <h3 class="item-descricao">CSS</h3>
+                </li>
+                <li class="item-tech">
+                    <img src="img/java-script.png" alt="" class="imagem-tech">
+                    <h3 class="item-descricao">Javascript</h3>
+                </li>
+                <li class="item-tech">
+                    <img src="img/atom.png" alt="" class="imagem-tech">
+                    <h3 class="item-descricao">React</h3>
+                </li>
+                <li class="item-tech">
+                    <img src="img/angular.svg" alt="" class="imagem-tech">
+                    <h3 class="item-descricao">Angular</h3>
+                </li>
 
-    </div>
-
-    <section class="technologies">
-        <div class="second-content">
-            <h1>HABILIDADES TÉCNICAS.</h1>
-
-            <ul class="tec-list">
-                <li class="tec-item">
-                    <img src="img/java-script.png" alt="javascript-img">
-                    <p>JAVASCRIPT</p>
-                </li>
-                <li class="tec-item">
-                    <img src="img/atom.png" alt="react-img">
-                    <p>REACT</p>
-                </li>
-                <li class="tec-item">
-                    <img src="img/angular.svg" alt="angular-img">
-                    <p>ANGULAR</p>
-                </li>
-                <li class="tec-item">
-                    <img src="img/css-3.png" alt="css-img">
-                    <p>CSS</p>
-                </li>
-                <li class="tec-item">
-                    <img src="img/html.png" alt="html-img">
-                    <p>HTML</p>
-                </li>
             </ul>
-        </div>
-    </section>
+        </section>
 
-    <section class="projetos">
-        <h1 class="projetos-titulo">Projetos e Experiência</h1>
-        <div class="projetos-content">
+        <section class="formacao">
+            <h1 id="titulo-formacao"> Formações</h1>
+            <ul class="lista-formacao">
+                <li class="item-formacao">
+                    <img src="img/logo-onebitcode.svg" alt="" class="imagem-formacao">
+                    <h3 class="formacao-descricao">Full Stack Javascript</h3>
+                </li>
+                <li class="item-formacao">
+                    <img src="img/estacio-logo.png" alt="" class="imagem-formacao">
+                    <h3 class="formacao-descricao">Análise e Desenvolvimento de Sistemas</h3>
+                </li>
+                <li class="item-formacao">
+                    <img src="img/alura-logo.svg" alt="" class="imagem-formacao">
+                    <h3 class="formacao-descricao">Curso Front-end</h3>
+                </li>
 
-            <div class="projetos-item">
-                <img src="img/projeto-memoteca.png" alt="projeto-memoteca">
-                <h2 class="projeto-nome">Projeto Memoteca</h2>
-                <p class="descricao">Projeto utilizando Angular.</p>
-            </div>
+                </li>
 
-            <div class="projetos-item">
-                <img src="img/projeto-memoteca.png" alt="projeto-memoteca">
-                <h2 class="projeto-nome">Projeto Memoteca</h2>
-                <p class="descricao">Projeto utilizando Angular.</p>
-            </div>
-
-            <div class="projetos-item">
-                <img src="img/projeto-memoteca.png" alt="projeto-memoteca">
-                <h2 class="projeto-nome">Projeto Memoteca</h2>
-                <p class="descricao">Projeto utilizando Angular.</p>
-            </div>
-
-        </div>
-        </div>
-    </section>
-
-    <footer class="rodape">
-
+            </ul>
+        </section>
+    </main>
+    <footer class="contatos" id="contatos">
+        <h1>Contatos</h1>
+        <ul class="lista-contatos" id="contatos">
+            <li class="contato-item">Cel: (21) 97021-2935 </li>
+            <li class="contato-item">E-mail: vitor_gha@hotmail.com </li>
+        </ul>
+        Copyrith &copy;2023 Vítor Gabriel Todos os direitos reservados.
     </footer>
 
-    <script src="portifolio.js"></script>
+    <script src="index.js"></script>
 </body>
-
-</html>
